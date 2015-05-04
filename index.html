@@ -7,8 +7,7 @@
         <title>Monkaa: Watch and Download the animated short film</title>
         <meta name="description" content="Monkaa is a blue-furred, pink-faced monkey who consumes a crystallized meteorite, making him invincibly strong and too hot to handle. Watch and download the animated short film here--for free!">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- TODO: Make a favicon that better represents the page. -->
-        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="shortcut icon" href="mfavicon.ico">
         <link rel="stylesheet" href="css/main.css">
     </head>
 
@@ -50,10 +49,14 @@
 
         <section id="watch">
             <h2>Watch</h2>
+			<video controls poster="media/video/video_poster.png">
+				<source src="media/video/monkaa_1080p.mp4" type="video/mp4">
+				<source src="media/video/monkaa_1080p.webm" type="video/webm">
+			</video>
             <!-- TODO: Embed the .webm and .mp4 video with full controls for a
-                 convenient and attractive video viewing experience. -->
+                 convenient and attractive video viewing experience. DONE-->
 
-            <!-- TODO: Style an elegant download link to download the video. -->
+            <!-- TODO: Style an elegant download link to download the video. DONE-->
             <h3>Download the video</h3>
             <p>
                 Click below to download either MP4 or WEBM versions of this video.
@@ -65,10 +68,11 @@
 
         <section id="listen">
             <h2>Listen</h2>
+			<audio src="media/audio/monkaa_soundtrack.mp3" controls></audio>
             <!-- TODO: Embed an audio player so users can play back the
-                 soundtrack MP3 directly on the page. -->
+                 soundtrack MP3 directly on the page. -DONE->
 
-            <!-- TODO: Style an elegant download link to download the video. -->
+            <!-- TODO: Style an elegant download link to download the video. DONE -->
             <p>
                 <a class="download-button" href="media/audio/monkaa_soundtrack.mp3">Download as MP3</a>
             </p>
@@ -77,7 +81,7 @@
         <section id="about">
             <!-- TODO: Style this text so it is comfortable to read and nice
                  to look at. Style the "lead" paragraph to be more eye-catching
-                 so that text stands out. -->
+                 so that text stands out. DONE-->
             <h2>About</h2>
             <p class="lead">Monkaa is a blue-furred, pink-faced monkey who consumes a crystallized meteorite, making him invincibly strong and too hot to handle. Exploring his new superpowers, Monkaa zooms through an entire universe. </p>
 
@@ -86,17 +90,17 @@
                      each headshot below. Images are located in the
                      ``img/weybec/`` directory. -->
                 <li>
-                    <img class="headshot" src="TODO" alt="Pratik Solanki headshot"><br>
+                    <img class="headshot" src="/img/weybec/pratik_solanki.jpg" alt="Pratik Solanki headshot"><br>
                     Pratik Solanki<br>
                     Co-Founder
                 </li>
                 <li>
-                    <img class="headshot" src="TODO" alt="Nita Ravalji headshot"><br>
+                    <img class="headshot" src="/img/weybec/Nita-ravalji1.jpg" alt="Nita Ravalji headshot"><br>
                     Nita Ravalji<br>
                     Co-Founder
                 </li>
                 <li>
-                    <img class="headshot" src="TODO" alt="Niyal Parmar headshot"><br>
+                    <img class="headshot" src="/img/weybec/niyal_parmar.jpg" alt="Niyal Parmar headshot"><br>
                     Niyal Parmar<br>
                     Co-Founder
                 </li>
@@ -107,7 +111,7 @@
             <p>Project Monkaa is a 5-minute short animated movie, entirely made with Blender and GIMP and other Free/Open Software programs. It has been released as an Open Movie, with all production files and tutorials available on <a href="https://cloud.blender.org/open-movie/monkaa/">Blender Cloud</a> under a CC-BY license, as well as on a DVD available in the <a href="http://www.blender3d.org/e-shop/">Blender Store</a>.</p>
         </section>
 
-        <footer><!-- TODO: Style the footer appropriately. -->
+        <footer><!-- TODO: Style the footer appropriately. DONE -->
             <p>This page was created and designed by WEBDEV BEV in 2015. <i>Monkaa</i> was created by <a href="http://www.weybec.com/">Weybec</a> and is used here under a CC-BY license.</p>
             <nav>
                 <ul class="main-nav">
