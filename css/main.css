@@ -18,7 +18,7 @@ body {
 }
 
 header {
-	background-image: url("/img/monkaa_title.jpg");
+	background-image: url("img/monkaa_title.jpg");
     background-color: #cccccc;
 	min-height: 400px;
 	background-repeat: no-repeat;
